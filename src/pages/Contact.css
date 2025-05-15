@@ -1,0 +1,104 @@
+
+.contact-buttons-highlight {
+  border-radius: 1rem;
+  box-shadow: 0 2px 12px rgba(55,150,131,0.06);
+  padding: 1rem 0;
+  margin: 0 auto;
+  max-width: 650px;
+}
+
+.contact-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 1rem;
+}
+
+.contact-btn-group {
+  display: flex;
+}
+
+.contact-btn-group.left {
+  justify-content: flex-start;
+  flex: 1;
+  gap: 1rem;
+  flex-wrap: wrap; 
+}
+
+.contact-btn-group.right {
+  justify-content: flex-end;
+}
+
+.contact-btn {
+  width: 10rem;
+  min-width: 10rem;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.25rem;
+  padding: 0.5em 1em;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.18s, color 0.18s, border 0.18s, box-shadow 0.18s;
+  box-shadow: 0 1px 4px rgba(55,150,131,0.04);
+  outline: none;
+  gap: 0.5em;
+  border: 1px solid transparent;
+  white-space: nowrap;
+}
+
+.contact-btn.email {
+  background: #0057b8;
+  color: #fff;
+  border-color: #0057b8;
+}
+.contact-btn.email:hover,
+.contact-btn.email:focus {
+  background: #003e87;
+  border-color: #003e87;
+}
+
+.contact-btn.copy {
+  background: #fff;
+  color: #0057b8;
+  border: 1px solid #0057b8;
+}
+.contact-btn.copy:hover,
+.contact-btn.copy:focus {
+  background: #e3f0ff;
+  color: #003e87;
+  border-color: rgb(0, 62, 135);
+}
+
+.contact-btn.github {
+  background: #111;
+  color: #fff;
+  border-color: #111;
+}
+.contact-btn.github:hover,
+.contact-btn.github:focus {
+  background: #333;
+  border-color: #333;
+}
+
+.contact-link-icon {
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.3em;
+  vertical-align: middle;
+}
+
+.contact-buttons-highlight {
+  border-left: 2px solid #000;
+  border-bottom: 2px solid #000;
+  border-radius: 0 0 0 1rem;
+  padding: 2rem;
+  margin: 2rem 0;
+  max-width: 80%;
+  display: flex;
+}
