@@ -28,7 +28,7 @@ const Part3 = () => (
       My user personas were of course all delighted with the new system as it addressed all of the complaints and concerns that they had raised (even if they are all fictional and biased).
     </p>
 
-    <p>I have a live working version of my <a href="" target="_blank">Little Lemon project</a> that you can see for yourself.</p>
+    <p>I have a live working version of my <a href="https://little-lemon-sage-rho.vercel.app/" target="_blank">Little Lemon project</a> that you can see for yourself.</p>
     <p>The code can also be found in my <a href="https://github.com/theHiddenGibbon/little-lemon" target="_blank">GitHub repository.</a></p>
   </section>
 );
